@@ -1,0 +1,30 @@
+*****Logistic Regression Report******
+
+Confusion Matrix:
+[[440 153]
+ [ 48 159]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.74      0.81       593
+         1.0       0.51      0.77      0.61       207
+
+    accuracy                           0.75       800
+   macro avg       0.71      0.76      0.71       800
+weighted avg       0.80      0.75      0.76       800
+
+*****Random Forest Report******
+
+Confusion Matrix:
+[[537  54]
+ [125  84]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.91      0.86       591
+         1.0       0.61      0.40      0.48       209
+
+    accuracy                           0.78       800
+   macro avg       0.71      0.66      0.67       800
+weighted avg       0.76      0.78      0.76       800
+
